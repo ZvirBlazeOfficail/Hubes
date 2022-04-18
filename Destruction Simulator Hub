@@ -1,7 +1,7 @@
 if not game:IsLoaded() then game.Loaded:Wait() end
 if game.CreatorId == 30031949 then
-local loaderurl = ""
-local scripturl = "https://pastebin.com/raw/hQEzXyhv"
+local loaderurl = "https://raw.githubusercontent.com/ZvirBlazeOfficail/Hubes/main/Destruction%20Simulator%20Hub"
+local scripturl = "https://raw.githubusercontent.com/ZvirBlazeOfficail/Hubes/00ecc4da19ae06e0dffe6bf8f48bf972074c53e7/DSH"
 loadstring(game:HttpGet(scripturl,true))()
 syn.queue_on_teleport([[
     wait(3)
